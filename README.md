@@ -1,4 +1,4 @@
-# Hand Detection System for Liquid handling robot
+# Hand Intrusion Detection
 
 Real-time hand detection framework built on YOLO11-SLDH, optimized for edge computing and Raspberry Pi deployment.
 
@@ -6,6 +6,10 @@ Real-time hand detection framework built on YOLO11-SLDH, optimized for edge comp
 
 A computer vision system for detecting hand presence in video streams with real-time inference capability. Supports model optimization efficient deployment on resource-constrained devices.
 
+
+## Dataset
+
+The dataset is named **PipLab-Hand** and is stored in `data/` in YOLO format. The detection class is `hand`.
 
 ## Project Structure
 
@@ -24,7 +28,7 @@ Hand/
 │   ├── infer.py
 │   ├── postprocess.py
 │   └── logic.py
-├── data/                # Dataset (YOLO format)
+├── data/                # PipLab-Hand dataset (YOLO format)
 └── runs/                # Training outputs
 ```
 
