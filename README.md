@@ -11,6 +11,10 @@ A computer vision system for detecting hand presence in video streams with real-
 
 The dataset is named **PipLab-Hand** and is stored in `data/` in YOLO format. The detection class is `hand`.
 
+[**Download PipLab-Hand v1.0 (ZIP)**](https://github.com/heegui65/Hand-intrusion-detection/releases/download/piplab-hand-v1.0/PipLab-Hand.zip) · [Release page](https://github.com/heegui65/Hand-intrusion-detection/releases/tag/piplab-hand-v1.0)
+
+The download contains **637 images** with YOLO-format annotations: 446 training, 127 validation, and 64 test images.
+
 ## Project Structure
 
 ```
